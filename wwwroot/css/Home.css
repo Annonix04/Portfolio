@@ -1,0 +1,7 @@
+﻿li {
+    width: fit-content;
+    text-align: left;
+}
+.section-content {
+    border-left: 3px solid black;
+}

@@ -6,6 +6,16 @@
         <title>Portfolio - @ViewData["Title"]</title>
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+        
+        @{
+            switch (ViewData["Title"])
+            {
+                case "Home":
+                    <link rel="stylesheet" href="\css\Home.css"/>
+                    break;
+            }
+        }
+        
         <!--
         <link rel="stylesheet" href="~/Portfolio.styles.css" asp-append-version="true"/>
         -->
